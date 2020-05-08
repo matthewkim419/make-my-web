@@ -44,3 +44,11 @@ body{
 h1{
     background-color:rgb(220, 230,239);
 }
+.panel-body
+{
+    background-color:rgb(220, 230,239) ;
+    position: fixed; 
+    bottom: 0;
+     width: 100%;
+    
+}
