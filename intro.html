@@ -47,9 +47,42 @@
          
         <div id ="text">
         <h2>18학번 영문과 김강산</h2>
+        
         </div>
         <div class="panel-body">
             Made by 강산 
+
+            <div button>
+                <input type="button"  value="night" onclick="
+                var target = document.querySelector('body')
+                if ( this.value === 'night') {
+                    target.style.backgroundColor = 'black';
+                    target.style.color = 'white';
+                    this.value = 'day';
+
+                    var alist=document.querySelectorAll('a');
+                     var i=0
+                     while(i<alist.length){
+                    console.log(alist[i]);
+                    alist[i].style.color = 'white';
+                    i = i+1;
+                }   
+                } else  { 
+                    target.style.backgroundColor = 'white';
+                    target.style.color = 'black';
+                    this.value = 'night';
+                  
+        
+                    var alist=document.querySelectorAll('a');
+                    var i=0
+                    while(i<alist.length){
+                    console.log(alist[i]);
+                    alist[i].style.color = 'black ';
+                    i = i+1;
+                }   
+                }
+                
+                ">
           </div>
     </div>
   
