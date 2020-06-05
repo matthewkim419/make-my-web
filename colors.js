@@ -40,4 +40,4 @@ function nightDayHandler(self){
             }
             
 
-}
+};
